@@ -1,0 +1,3 @@
+# Lua Nested Table Iteration Bug
+
+This repository demonstrates a potential issue with Lua's `pairs` iterator when dealing with nested tables.  The order of iteration using `pairs` is not guaranteed, which can lead to unexpected behavior in recursive table traversal. The `bug.lua` file illustrates the problem, and `bugSolution.lua` provides a solution using a custom iterative function that guarantees order.
